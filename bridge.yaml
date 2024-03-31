@@ -1,0 +1,15 @@
+topics:
+  -
+    topic: /navsat/odom
+    type: nav_msgs/msg/Odometry
+    queue_size: 10
+    
+  -
+    topic: /gps/imu
+    type: sensor_msgs/msg/Imu
+    queue_size: 10
+
+  -
+    topic: /novatel_inspvax
+    type: std_msgs/msg/Float32MultiArray
+    queue_size: 10
