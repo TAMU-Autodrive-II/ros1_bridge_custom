@@ -15,11 +15,16 @@ topics:
     queue_size: 10
 
   -
+    topic: /ground_segmentation/nonground
+    type: sensor_msgs/msg/PointCloud2
+    queue_size: 10
+
+  -
     topic: /cepton2/lidar_data
     type: std_msgs/msg/Float64MultiArray
-    queue: 10
+    queue_size: 10
   
   -
     topic: /tracking/clouds
     type: sensor_msgs/msg/PointCloud2
-    queue: 10
+    queue_size: 10
