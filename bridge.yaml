@@ -28,3 +28,28 @@ topics:
     topic: /tracking/clouds
     type: sensor_msgs/msg/PointCloud2
     queue_size: 10
+
+  -
+    topic: /cepton2/points_221341
+    type: sensor_msgs/msg/PointCloud2
+    queue_size: 10
+
+  -
+    topic: /can_throttle_auto
+    type: std_msgs/msg/Int64
+    queue_size: 10
+
+  -
+    topic: /can_brake_auto
+    type: std_msgs/msg/Int64
+    queue_size: 10
+
+  -
+    topic: /can_park_brake_auto
+    type: std_msgs/msg/Int64
+    queue_size: 10
+
+  -
+    topic: /can_steering_auto
+    type: std_msgs/msg/Int64
+    queue_size: 10
