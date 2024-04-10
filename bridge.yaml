@@ -15,6 +15,11 @@ topics:
     queue_size: 10
 
   -
+    topic: /novatel_bestpos
+    type: std_msgs/msg/Float32MultiArray
+    queue_size: 10
+
+  -
     topic: /ground_segmentation/nonground
     type: sensor_msgs/msg/PointCloud2
     queue_size: 10
