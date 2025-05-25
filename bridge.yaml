@@ -9,35 +9,38 @@ topics:
     type: sensor_msgs/msg/Imu
     queue_size: 10
 
-  -
-    topic: /novatel_inspvax
-    type: std_msgs/msg/Float32MultiArray
-    queue_size: 10
+  #-
+  #  topic: /novatel_inspvax
+  #  type: std_msgs/msg/Float32MultiArray
+  #  queue_size: 10
 
-  -
-    topic: /novatel_bestpos
-    type: std_msgs/msg/Float32MultiArray
-    queue_size: 10
+  #-
+  #  topic: /novatel_bestpos
+  #  type: std_msgs/msg/Float32MultiArray
+  #  queue_size: 10
 
-  -
-    topic: /ground_segmentation/nonground
-    type: sensor_msgs/msg/PointCloud2
-    queue_size: 10
+  #-
+  #  topic: /ground_segmentation/nonground
+  #  type: sensor_msgs/msg/PointCloud2
+  #  queue_size: 10
 
-  -
-    topic: /cepton2/lidar_data
-    type: std_msgs/msg/Float64MultiArray
-    queue_size: 10
-  
-  -
-    topic: /tracking/clouds
-    type: sensor_msgs/msg/PointCloud2
-    queue_size: 10
+  #-
+  #  topic: /cepton2/lidar_data
+  #  type: std_msgs/msg/Float64MultiArray
+  #  queue_size: 10
+  #-
+  #  topic: /doubled_pointcloud
+  #  type: sensor_msgs/msg/PointCloud2
+  #  queue_size: 10  
+  #-
+  #  topic: /tracking/clouds
+  #  type: sensor_msgs/msg/PointCloud2
+  #  queue_size: 10
 
-  -
-    topic: /cepton2/points_221341
-    type: sensor_msgs/msg/PointCloud2
-    queue_size: 10
+  #-
+  #  topic: /cepton2/points_221341
+  #  type: sensor_msgs/msg/PointCloud2
+  #  queue_size: 10
 
   -
     topic: /can_throttle_auto
@@ -57,4 +60,19 @@ topics:
   -
     topic: /can_steering_auto
     type: std_msgs/msg/Int64
+    queue_size: 10
+  
+  -
+    topic: /autonomous_mode_topic
+    type: std_msgs/msg/Bool
+    queue_size: 10
+
+  -
+    topic: /AV_state
+    type: std_msgs/msg/String
+    queue_size: 10
+
+  -
+    topic: /autonomous_script
+    type: std_msgs/msg/Bool
     queue_size: 10
